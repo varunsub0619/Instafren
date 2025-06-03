@@ -1,0 +1,32 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables file (commonly contains sensitive information)
+.env 
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store           # macOS specific
+Thumbs.db           # Windows specific
+
+# Build output directories
+dist/
+build/
+
+# Package lock file (optional, if you want to ignore it)
+package-lock.json   # If you want to ignore this, or just leave it for versioning
+yarn.lock           # If you use Yarn, ignore the yarn.lock file (optional)
+
+# Other potential files that might be generated
+coverage/           # Test coverage output directory
